@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: ghostwhite;
+}
+
+
+
+img{
+    width: 234px;
+    height: 282px;
+    border-radius: 8px;
+    border: solid grey 1px
+}
+
+.cardFrame{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #DFDCDE;
+    width: 270px;
+    height: 320px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid grey 2px
+}
+
+#imageName{
+    background-color: #DFDCDE ;
+    font-size: 18px;
+}
