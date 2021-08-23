@@ -128,28 +128,3 @@ function App() {
 
 
 export default App;
-
-
-// if (order == 1){
-//   return "one"
-// }
-// if (order == 2){
-//   return "two"
-// }
-// if (order == 3){
-//   return "three"
-// }
-// if (order == 4){
-//   return "four"
-// }
-// if (order == 5){
-//   return "five"
-// }
-// if (order == 6){
-//   return "size"
-// }
-
-    // listOfCards.forEach((card) => {
-    //   console.log(card)
-    //   card.style.order = order;
-    // })
