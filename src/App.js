@@ -7,6 +7,7 @@ function App() {
 
   console.warn = () => {};
 
+  
   let [CarriedSkull, setCarriedSkull] = useState(
     {
       name: "CarriedSkull",
@@ -107,7 +108,6 @@ function App() {
       </div>
 
       <div id="cardContainer">
-        {/* ref={CarriedSkull.test} */}
         <Cards  onClick = {() => {clickAndCheck(CarriedSkull)}} className = {randomizeOrder} name = "Carried Skull" src = "/imgs/CarriedSkull.png"/>
 
         <Cards onClick = {() => {clickAndCheck(DarkPichu)}} className = {randomizeOrder}  name = "Dark Pichu" src = "/imgs/DarkPichu.png"/>
